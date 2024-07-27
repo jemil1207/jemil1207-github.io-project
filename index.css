@@ -7,7 +7,7 @@
 
 .navbar{
     height: 50px;
-    padding-top: 25px;
+    padding-top: 5px;
     width: 100%;
     display: flex;
     font-size: 20px;
@@ -29,7 +29,7 @@
 
 
    .navbar {
-    padding-bottom: 20px;
+    padding-bottom: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
