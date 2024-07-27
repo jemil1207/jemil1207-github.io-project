@@ -6,63 +6,66 @@
 
 
 .navbar{
-
+    height: 50px;
+    padding-top: 25px;
+    width: 100%;
     display: flex;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
     justify-content: space-evenly;
-    text-align: center;
-    /* justify-content: center; */
-    padding: 10px;
-    padding-left: 30px;
+    font-size: 25px;
     background-color: #FF6B6B;
-    
+    font-weight: 30p x;
 }
 
 .menuimage{
-    height: 20px;
+    height: 30px;
+   padding-right: 50px;
+}
+.home{
+    padding-left: 50px                  ;
 }
 
 
-.navbar_section {
+   .navbar {
+    padding-bottom: 20px;
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FF6B6B;
 }
 
 
-.navbar_section nav:not(.menu_icon) {
+.menu-toggle {
     display: none;
 }
 
+.menu-icon {
+    display: none;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+}
 
-.menu_icon:hover ~ nav {
-    display: block;
+@media (max-width: 768px) {
+
+    .menuimage{
+        height: 30px;
+       padding-right: 50px;
+       margin-left: 50px;
+    }
+    
+
+
 }
 
 
-.navbar_section {
-    /* background-color: #f8f9fa; */
-    /* padding: 10px; */
-}
-
-.navbar_section nav {
-    /* margin: 5px 0; */
-}
 
 .menu_icon {
     cursor: pointer;
     /* margin-bottom: 10px; */
 }
-.home,.Order,.food,.Restaurant,.Testimonials,.Contact{
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 50px;
-   }
-
-
-
-
-/*  */
-
 
 
 
@@ -76,7 +79,6 @@
 }
 
 .s2{
-    /* background-color: #3f20b1; */
     width: 50%;
     height: 100vh;
 }
@@ -98,7 +100,6 @@
 
 
 .click_button{
-    /* margin-top: 50px; */
             padding: 10px 70px;
             background-color: #FF6B6B;
             color: white;
@@ -116,7 +117,7 @@
 .sectionthree{
    
     display: flex;
-    background: linear-gradient(to right, rgb(255, 241, 177), rgb(255, 177, 255));
+    background: linear-gradient(to right, #FFF9B0, rgb(255, 177, 255));
     padding-bottom: 100px;
 
 
@@ -126,14 +127,12 @@
     width: 250px;
     margin-left: 100px;
     margin-top: 150px;
-    /* background-color: aqua; */
 }
 .s32{
     height: 400px;
     width: 250px;
     margin-left: 30px;
     margin-top: 150px;
-    /* background-color: rgb(44, 172, 172); */
 }
 .s31imageone{
     height: 200px;
@@ -173,6 +172,30 @@
 
 @media only screen and (min-width: 320px) and (max-width: 768px){
 
+
+    .navbar{
+        height: 50px;
+        padding-top: 25px;
+        width: 100%;
+        display: flex;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        flex: right;
+        font-size: 25px;
+        background-color: #FF6B6B;
+        font-weight: 30p x;
+    }
+    .home,.Order,.food,.Restaurant,.Testimonials,.Contact{
+        display: none;
+    }
+
+
+    .section3head{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
     .sectionthree{
    
         display: flex;
@@ -201,7 +224,6 @@
         width: 250px;
         margin-left: 0px;
         margin-top: 150px;
-        background-color: rgb(44, 172, 172);
     }
     .s33{
        
@@ -214,11 +236,14 @@
        
         margin-left: 30px;
         margin-top: 150px;
-        /* background-color: aqua; */
     }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 525px){
+    .s2image{
+        height: 100vh;
+        width: 100%;
+    }
 .sectionfirst{
     display: flex;
     flex-direction: column;
@@ -244,10 +269,6 @@
 @media only screen and (min-width: 320px) and (max-width: 768px){
 
 
-.navbar{
-    width: 100%;
-    
-}
    
 .sectiontwo{
     display: flex;
@@ -287,3 +308,15 @@
 
 
 }
+@media only screen and (min-width: 769px) and (max-width: 1441px){
+    .s2{
+        background-color: #3f20b1;
+        height: 600px
+    }
+.s2image{
+    height:100% ;
+}
+
+}
+
+
