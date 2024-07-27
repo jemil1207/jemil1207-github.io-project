@@ -158,7 +158,7 @@
     width: 450px;
     background-color: #FF6B6B;
     margin-top: 225px;
-    margin-left: 50px;
+    margin-left: 100px;
     border-radius: 2mm;
 }
 
@@ -231,6 +231,7 @@
         margin-top: 100px;
         height: 100%;
         border-radius: 2mm;
+        margin-left: 0px;
     }
     .s31{
        
